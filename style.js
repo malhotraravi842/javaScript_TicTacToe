@@ -1,7 +1,7 @@
 // Selectors
-const name1 = /*prompt('Enter the Name of 1st Player') || */ 'Player1';
+const name1 = prompt('Enter the Name of 1st Player') || 'Player1';
 document.querySelector('.name1').textContent = name1;
-const name2 = /*prompt('Enter the Name of 2nd Player') || */ 'Player2';
+const name2 = prompt('Enter the Name of 2nd Player') || 'Player2';
 document.querySelector('.name2').textContent = name2;
 const bx = document.querySelectorAll('.box');
 let boxes = [];
